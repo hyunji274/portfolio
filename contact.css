@@ -1,0 +1,90 @@
+body {
+    font-family: "Do Hyeon", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color:rgb(249, 247, 242);
+    color: rgb(69, 57, 47);
+    font-size: 20px;    
+}
+
+/* 헤더 영역 */  
+.header {
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(227, 206, 226);
+    color: rgb(143, 184, 218);
+    height: 68px;
+    align-items: center;
+    padding: 0 28px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+main {
+    margin-top: 72px;
+  }
+  
+  .nav-menu {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+  }
+  
+  .nav-list {
+    display: inline;
+  }
+  
+  #nav-contact {
+    background-color: rgb(249, 247, 242);
+    height: 32px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+  
+    border-radius: 10px;
+    border: 2px solid rgb(143, 184, 218);
+  }
+  
+  #nav-contact:hover {
+    background-color:aliceblue
+  }
+  
+  #nav-contact:active {
+    background-color: rgb(202, 218, 235);
+  }
+
+ /*메인영역*/
+
+  .profile-img {
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+
+  .container {
+    max-width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+    padding: 200px 100px;
+  }
+
+  .sub-heading {
+    font-size: 14px;
+    color: rgb(87, 87, 87);
+    padding-bottom: 8px;
+  }
+
+  .text {
+    font-size: 24px;
+    padding-bottom: 24px;
+  }
+
+  .sns:hover {
+    font-weight: 500;
+    color: aliceblue;
+  }
